@@ -102,7 +102,7 @@ python file_integrity_checker.py
 
 The tool computes SHA-256 and MD5 digests for the target file and stores them in `baseline.json`.
 
-![Baseline Created](screenshots/01-baseline-created.png)
+![Baseline Created](01-baseline-created.png)
 
 ---
 
@@ -110,7 +110,7 @@ The tool computes SHA-256 and MD5 digests for the target file and stores them in
 
 The integrity check is re-run with no modifications made. The recalculated hash matches the baseline.
 
-![Unchanged](screenshots/02-unchanged.png)
+![Unchanged](02-unchanged.png)
 
 ---
 
@@ -118,7 +118,7 @@ The integrity check is re-run with no modifications made. The recalculated hash 
 
 The file content is altered. The recalculated hash no longer matches, and both hash values are displayed for comparison.
 
-![Modified](screenshots/03-modified.png)
+![Modified](03-modified.png)
 
 ---
 
@@ -126,7 +126,7 @@ The file content is altered. The recalculated hash no longer matches, and both h
 
 The file is removed from its recorded path. The tool flags the file as missing.
 
-![Missing](screenshots/04-missing.png)
+![Missing](04-missing.png)
 
 ---
 
