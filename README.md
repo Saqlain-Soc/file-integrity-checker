@@ -83,7 +83,7 @@ The tool supports monitoring **multiple files simultaneously**, maintaining all 
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/file-integrity-checker.git
+git clone https://github.com/Saqlain-Soc/file-integrity-checker.git
 
 # Navigate into the project directory
 cd file-integrity-checker
@@ -102,7 +102,7 @@ python file_integrity_checker.py
 
 The tool computes SHA-256 and MD5 digests for the target file and stores them in `baseline.json`.
 
-![Baseline Created](01-baseline-created.png)
+![Baseline Created](screenshots/01-baseline-created.png)
 
 ---
 
@@ -110,7 +110,7 @@ The tool computes SHA-256 and MD5 digests for the target file and stores them in
 
 The integrity check is re-run with no modifications made. The recalculated hash matches the baseline.
 
-![Unchanged](02-unchanged.png)
+![Unchanged](screenshots/02-unchanged.png)
 
 ---
 
@@ -118,7 +118,7 @@ The integrity check is re-run with no modifications made. The recalculated hash 
 
 The file content is altered. The recalculated hash no longer matches, and both hash values are displayed for comparison.
 
-![Modified](03-modified.png)
+![Modified](screenshots/03-modified.png)
 
 ---
 
@@ -126,7 +126,7 @@ The file content is altered. The recalculated hash no longer matches, and both h
 
 The file is removed from its recorded path. The tool flags the file as missing.
 
-![Missing](04-missing.png)
+![Missing](screenshots/04-missing.png)
 
 ---
 
@@ -220,11 +220,11 @@ The project demonstrates practical application of **cryptographic hashing, persi
 This repository forms part of my practical cybersecurity learning portfolio and documents my hands-on security tool development.
 
 <p align="center">
-  <a href="www.linkedin.com/in/saqlain-abbas-a61b59414">
+  <a href="https://linkedin.com/in/saqlain-abbas-a61b59414">
     <img src="https://img.shields.io/badge/🔵_LinkedIn-Professional%20Profile-0A66C2?style=for-the-badge" />
   </a>
   &nbsp;
-  <a href="https://github.com/Saqlain-Soc/file-integrity-checker">
+  <a href="https://github.com/Saqlain-Soc">
     <img src="https://img.shields.io/badge/⚫_GitHub-Security%20Projects-181717?style=for-the-badge" />
   </a>
 </p>
